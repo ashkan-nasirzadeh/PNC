@@ -6,10 +6,6 @@ you want to choose a name for a column in a user_table in a database? sometimes 
 
 here I want (I wish) to write down this convention with the aid of the programmers in all over the world
 
-[TOC]
-
-
-
 ## general rules
 
 ## project directories
