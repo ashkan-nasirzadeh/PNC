@@ -7,17 +7,18 @@ you want to choose a name for a column in a user_table in a database? you may us
 here I want (I wish) to write down this convention with the aid of the programmers in all over the world
 
 ## general rules
+
+## project directories
+## variables
+---
 ### single letter prefixes
 single letter prefixes is about abstracting traditional prefixes that many developers use in their programs for example we may use `newUser`,`newShoppingCard`,`newIP` and so on , so from now on we'll use `nUser`,`nShoppingCard`,`nIP`,...
 
 rule #1: single letter prefixes should use only in camelCase style (e.g. nuser is wrong while nUser is valid)
-| abbreviation |                           meaning                            |
-| :----------: | :----------------------------------------------------------: |
-| n | new |
-
-## project directories
-
-## variables
+| abbreviation |                    meaning          | example |
+| :----------: | :---------------------------------: | :-----: |
+| n | new | nUser = newUser |
+| r | response | rCode = responseCode |
 ### preserved variables
 we use this variable names just for one purpose in through the entire program
 | abbreviation |                           meaning                            |
