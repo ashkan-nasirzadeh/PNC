@@ -26,6 +26,9 @@ we use this variable names just for one purpose in through the entire program
 | abbreviation |                           meaning                            |
 | :----------: | :----------------------------------------------------------: |
 | result | just for the returned value from a method |
+| db | data base |
+| pass | password |
+| conn | connection |
 ## database columns
 
 | abbreviation |                           meaning                            |
