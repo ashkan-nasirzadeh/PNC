@@ -14,10 +14,15 @@ rule #1: single letter prefixes should use only in camelCase style (e.g. nuser i
 | abbreviation |                           meaning                            |
 | :----------: | :----------------------------------------------------------: |
 | n | new |
+
 ## project directories
 
 ## variables
-
+### preserved variables
+we use this variable names just for one purpose in through the entire program
+| abbreviation |                           meaning                            |
+| :----------: | :----------------------------------------------------------: |
+| result | just for the returned value from a method |
 ## database columns
 
 | abbreviation |                           meaning                            |
