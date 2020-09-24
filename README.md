@@ -11,7 +11,7 @@ here I want (I wish) to write down this convention with the aid of the programme
 ## project directories
 ## variables
 ---
-### single letter prefixes
+### single and two letter prefixes
 single letter prefixes is about abstracting traditional prefixes that many developers use in their programs for example we may use `newUser`,`newShoppingCard`,`newIP` and so on , so from now on we'll use `nUser`,`nShoppingCard`,`nIP`,...
 
 rule #1: single letter prefixes should use only in camelCase style (e.g. nuser is wrong while nUser is valid)
@@ -19,6 +19,8 @@ rule #1: single letter prefixes should use only in camelCase style (e.g. nuser i
 | :----------: | :---------------------------------: | :-----: |
 | n | new | nUser = newUser |
 | r | response | rCode = responseCode |
+| re | requested | reItem = requestedItem |
+| s | status | sCode = statusCode |
 ### preserved variables
 we use this variable names just for one purpose in through the entire program
 | abbreviation |                           meaning                            |
@@ -35,9 +37,9 @@ we use this variable names just for one purpose in through the entire program
 |     cell     |                       cellphone number                       |
 |    ssnum     |      social security number / personal identity number       |
 |    price     |             price of an item / cost of a service             |
-|    prices    |     total costs of a shopping bag / total services costs     |
-|   birthTS    |                    birthday in timestamp                     |
-|      ID      | *point is to use "ID" (CAPITAL) everywhere in a database not "id"* |
+|    cost    |     total costs of a shopping bag / total services costs     |
+|   birth    |                    birthday in timestamp                     |
+|      ID      | *the point is to use "ID" (CAPITAL) everywhere in a database not "id"* |
 
 ## functions
 
