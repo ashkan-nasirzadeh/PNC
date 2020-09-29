@@ -17,10 +17,10 @@ single letter prefixes is about abstracting traditional prefixes that many devel
 rule #1: single letter prefixes should use only in camelCase style (e.g. nuser is wrong while nUser is valid)
 | abbreviation |                    meaning          | example |
 | :----------: | :---------------------------------: | :-----: |
-| n | new | nUser = newUser |
-| r | response | rCode = responseCode |
-| re | requested | reItem = requestedItem |
-| s | status | sCode = statusCode |
+| n | new | nRoff = new roff |
+| r | response | rCode = response code |
+| re | requested | reItem = requested item |
+| s | status | sCode = status code |
 ### preserved variables
 we use this variable names just for one purpose in through the entire program
 | abbreviation |                           meaning                            |
