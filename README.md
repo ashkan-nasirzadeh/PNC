@@ -33,9 +33,10 @@ we use this variable names just for one purpose in through the entire program
 
 | abbreviation |                           meaning                            |
 | :----------: | :----------------------------------------------------------: |
-|    fname     |                          first name                          |
-|    lname     |                     last name / surname                      |
-|    mname     |                         middle name                          |
+|    fName     |                          first name                          |
+|    sName     |     last name / surname (we don't use lname becase l(L lowercase) and I(i uppercase) are indistinguishable) |
+|    mName     |                         middle name                          |
+|    uName     |                         user name                          |
 |    phone     |                         phone number                         |
 |     cell     |                       cellphone number                       |
 |    ssnum     |      social security number / personal identity number       |
