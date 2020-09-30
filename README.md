@@ -47,11 +47,10 @@ we use this variable names just for one purpose in through the entire program
 | :----------: | :----------------------------------------------------------: |
 |    fName     |                          first name                          |
 |    sName     |     last name / surname (we don't use lname becase l(L lowercase) and I(i uppercase) are indistinguishable) |
-|    mName     |                         middle name                          |
 |    uName     |                         user name                          |
 |    phone     |                         phone number                         |
 |     cell     |                       cellphone number                       |
-|    ssnum     |      social security number / personal identity number       |
+|    ssNum     |      social security number / personal identity number       |
 |    price     |             price of an item / cost of a service             |
 |    cost    |     total costs of a shopping bag / total services costs     |
 |   birth    |                    birthday in timestamp                     |
