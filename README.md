@@ -9,6 +9,18 @@ here I want (I wish) to write down this convention with the aid of the programme
 ## general rules
 
 ## project directories
+---
+| directory name |                    meaning          |
+| :----------: | :---------------------------------: |
+| vendor | the conventional location for all **third-party codes** in a project |
+| assets | - | 
+| includes | - |
+| libs | - |
+| test | - |
+| demo | - |
+| src | - |
+| dist | - |
+| docs | - |
 ## variables
 ---
 ### single and two letter prefixes
@@ -30,7 +42,7 @@ we use this variable names just for one purpose in through the entire program
 | pass | password |
 | conn | connection |
 ## database columns
-
+---
 | abbreviation |                           meaning                            |
 | :----------: | :----------------------------------------------------------: |
 |    fName     |                          first name                          |
@@ -46,9 +58,11 @@ we use this variable names just for one purpose in through the entire program
 |      ID      | *the point is to use "ID" (CAPITAL) everywhere in a database not "id"* |
 
 ## functions
-
+---
 ## classes
+---
 ## README.md files
+---
 the key point in these kind of files is that we should use specific unit headers:
 | header |                           meaning                            |
 | :----------: | :----------------------------------------------------------: |
