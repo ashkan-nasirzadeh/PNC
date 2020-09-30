@@ -48,4 +48,12 @@ we use this variable names just for one purpose in through the entire program
 ## functions
 
 ## classes
+## README.md files
+the key point in these kind of files is that we should use specific unit headers:
+| header |                           meaning                            |
+| :----------: | :----------------------------------------------------------: |
+| Installation | the instruction of how to install/use this source code |
+| Basic Usage | a quick sample code to illustrate how this tool works |
+| Documentation | the specifications, manuals, documents and tutorials about this source code |
+| About | requirements, how bug submission, author, license, acknowledgements, etc |
 
