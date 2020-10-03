@@ -21,6 +21,7 @@ here I want (I wish) to write down this convention with the aid of the programme
 | src | - |
 | dist | - |
 | docs | - |
+| build | this directory will hold the package/software/application when it's created |
 ## variables
 ---
 ### single and two letter prefixes
