@@ -18,8 +18,8 @@ here I want (I wish) to write down this convention with the aid of the programme
 | libs | - |
 | test | - |
 | demo | - |
-| src | - |
-| dist | - |
+| src | The source is used for development. This will usually originate from a source code repository, such as git. |
+| dist | The dist is a packaged version of the package data, same source code after minimizing or transplinig or ... |
 | docs | - |
 | build | this directory will hold the package/software/application when it's created |
 ## variables
