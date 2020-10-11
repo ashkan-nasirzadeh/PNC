@@ -70,9 +70,10 @@ we use this variable names just for one purpose in through the entire program
 |    uName     |                         user name                          |
 |    phone     |                         phone number                         |
 |     cell     |                       cellphone number                       |
-|    ssNum     |      social security number / personal identity number       |
-|    price     |             price of an item / cost of a service             |
-|    cost    |     total costs of a shopping bag / total services costs     |
+|    socialSecurityNum     |      social security number / personal identity number       |
+| IDCardNum | ID card Number |
+|    price     |             price of an item or product / cost of a service             |
+|    totalCost    |     total costs of a shopping bag / total services costs     |
 |   birth    |                    birthday in timestamp                     |
 |      ID      | *the point is to use "ID" (CAPITAL) everywhere in a database not "id"* |
 
