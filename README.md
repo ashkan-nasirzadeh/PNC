@@ -2,7 +2,7 @@
 
 programming naming convention
 
-you want to choose a name for a column in a user_table in a database? you may use `fname` but sometimes `firstName` or  `fn` or what! I want to be solid in these kinds of issues so actually we need a convention for most common names that we frequently use in variables, functions, classes, project directories and even for naming a column in a table of a database
+there are many advices for how to naming things in your code there are great books and many good articles about this but eventually what name do you use when you want to choose a name for a user first name in a database table? the task that you have done it maybe over 100 times and you are sad because you are thinking about this again and again and really wasting time for a very common and easy (actually that's not easy at all) task? a clean and perfect programmer won't use something like `fn` at all!! but you may want to use `fname` since it's easy for minds to discover the meaning of that and a short meaningfull name is far better than a long one like `firstName` or what...! I want to be solid in these kinds of issues so actually we need a convention **for most common names that we frequently use** in variables, functions, classes, project directories and even for naming a column/key in a database
 
 here I want (I wish) to write down this convention with the aid of the programmers in all over the world
 
@@ -24,27 +24,45 @@ here I want (I wish) to write down this convention with the aid of the programme
 | build | this directory will hold the package/software/application when it's created |
 ## variables
 ---
-### single and two letter prefixes
+these rules can be combined together (e.g. nConnArr(new connection array) or reQueriesCount(requested queries count))
+### single/two letter prefixes
 single letter prefixes is about abstracting traditional prefixes that many developers use in their programs for example we may use `newUser`,`newShoppingCard`,`newIP` and so on , so from now on we'll use `nUser`,`nShoppingCard`,`nIP`,...
 
 rule #1: single letter prefixes should use only in camelCase style (e.g. nuser is wrong while nUser is valid)
-| abbreviation |                    meaning          | example |
+| abbreviation/word |                    meaning          | example |
 | :----------: | :---------------------------------: | :-----: |
 | n | new | nRoff = new roff |
 | r | response | rCode = response code |
 | re | requested | reItem = requested item |
 | s | status | sCode = status code |
+### suffix
+| abbreviation/word |                           meaning                            |
+| :----------: | :----------------------------------------------------------: |
+| arr | only to declare that the variable type is array |
+| obj | only to declare that the variable type is object |
+| num | only to declare that the variable type is numeric |
+| count | only to declare that the variable type is numeric |
+| float | only to declare that the variable type is float |
+| int | only to declare that the variable type is integer |
+| str | only to declare that the variable type is string |
+| prop | property |
+| props | properties |
 ### preserved variables
 we use this variable names just for one purpose in through the entire program
-| abbreviation |                           meaning                            |
+| abbreviation/word |                           meaning                            |
 | :----------: | :----------------------------------------------------------: |
 | result | just for the returned value from a method |
+| output | only to declare the calculated/determined value of a process |
+| auth | authentication/authenticate/authenticated/... |
+| val | value |
+| var | variable |
+| tmp | temporary |
 | db | data base |
 | pass | password |
 | conn | connection |
-## database columns
+## database columns/keys
 ---
-| abbreviation |                           meaning                            |
+| abbreviation/word |                           meaning                            |
 | :----------: | :----------------------------------------------------------: |
 |    fName     |                          first name                          |
 |    sName     |     last name / surname (we don't use lname becase l(L lowercase) and I(i uppercase) are indistinguishable) |
