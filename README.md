@@ -25,7 +25,7 @@ here I want (I wish) to write down this convention with the aid of the programme
 | build | this directory will hold the package/software/application when it's created |
 ## variables
 ---
-these rules can be combined together (e.g. nConnArr(new connection array) or reQueriesCount(requested queries count))
+these rules can be combined together (e.g. nConnArr(new connection array) or reqQueriesCount(requested queries count))
 ### single/two letter prefixes
 single letter prefixes is about abstracting traditional prefixes that many developers use in their programs for example we may use `newUser`,`newShoppingCard`,`newIP` and so on , so from now on we'll use `nUser`,`nShoppingCard`,`nIP`,...
 
@@ -33,8 +33,8 @@ rule #1: single letter prefixes should use only in camelCase style (e.g. nuser i
 | abbreviation/word |                    meaning          | example |
 | :----------: | :---------------------------------: | :-----: |
 | n | new | nRoff = new roff |
-| r | response | rCode = response code |
-| re | requested | reItem = requested item |
+| res | response | rCode = response code |
+| req | requested | reItem = requested item |
 | s | status | sCode = status code |
 ### suffix
 | abbreviation/word |                           meaning                            |
